@@ -133,8 +133,9 @@ export default function Layout({ children }) {
                                                                     <div data-container="" className="osui-submenu__header needsclick" id="b1-b10-b2-SubMenuHeader"
                                                                         aria-haspopup="true"  aria-controls="b1-b10-b2-Items" role="button"
                                                                         aria-expanded="false">
-                                                                        <div className="osui-submenu__header__item" id="b1-b10-b2-Menu">
-                                                                        Producten</div>
+                                                                        <div className="osui-submenu__header__item" id="b1-b10-b2-Menu" >
+                                                                        <a href="/search">Producten</a>
+                                                                        </div>
                                                                 </div>
 
                                                             </div>
