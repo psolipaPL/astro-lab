@@ -1,0 +1,8 @@
+{
+  "appId": "com.astrolab.productleague",
+  "appName": "astro-lab",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
