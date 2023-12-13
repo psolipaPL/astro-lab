@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Layout from '../components/Layout'
+import Products from '../components/Products';
 ---
 
 <html lang="en">
@@ -58,10 +59,12 @@ import Layout from '../components/Layout'
 		</script>
 	</head>
 	<body>
-		<main>
-			<Layout>
-                search page
-			</Layout>
+		<main class="full-height fixed-header">
+      <div class="active-screen screen-container">
+        <Layout>
+          <Products></Products>
+        </Layout> 
+      </div>
 		</main>
 	</body>
 </html>
