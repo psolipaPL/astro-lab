@@ -23723,7 +23723,6 @@ select.dropdown-display[disabled] {
 
 .fixed-header .header {
     position: fixed;
-    top: calc(-1*var(--header-top-bar-height));
 }
 
 .layout.menu-hidden .header {
